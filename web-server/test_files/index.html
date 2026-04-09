@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMP2322 Web Server</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f0f0; }
+        h1 { color: #333; }
+        .success { color: green; font-weight: bold; }
+        ul { background: white; padding: 20px; border-radius: 10px; }
+        li { margin: 10px 0; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Multi-thread Web Server is Running!</h1>
+    <p class="success">[OK] Server successfully serving files via HTTP</p>
+    <p>This page is served by your custom web server built with Python sockets.</p>
+    
+    <h2>Test Links:</h2>
+    <ul>
+        <li><a href="test.txt">[TEST 1] Text File (GET request)</a></li>
+        <li><a href="test.jpg">[TEST 2] JPEG Image (GET request)</a></li>
+        <li><a href="test.png">[TEST 3] PNG Image (GET request)</a></li>
+        <li><a href="nonexistent.html">[TEST 4] 404 Not Found</a></li>
+        <li><a href=".hidden_file">[TEST 5] 403 Forbidden</a></li>
+    </ul>
+    
+    <hr>
+    <p><em>COMP2322 Computer Networking - Multi-thread Web Server Project</em></p>
+</body>
+</html>

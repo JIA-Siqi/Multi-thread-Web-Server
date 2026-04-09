@@ -1,0 +1,15 @@
+This is a test text file for the web server.
+
+The server successfully received a GET request and served this file.
+Server supports:
+- GET requests for text files
+- GET requests for image files  
+- HEAD requests
+- Persistent connections (keep-alive)
+- HTTP caching (If-Modified-Since)
+
+If you can read this, your web server is working correctly!
+
+Line 1: Test passed
+Line 2: Multi-threading works
+Line 3: HTTP protocol implemented correctly
